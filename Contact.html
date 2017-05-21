@@ -1,0 +1,81 @@
+<!-- Homepage -->
+
+<!doctype html>
+
+<html>
+
+	<head>
+	
+		<title>Photography by Henry Ton</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+
+	<body>
+
+	
+	<!-- =========================== Sidebar ================================ -->
+	
+	<div id="sidebar">
+	
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portraits.html">Portraits</a></li>
+			<li><a href="studio.html">Studio</a></li>
+			<li><a href="graduations.html">Graduations</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	
+		<div id="sidebarbutton">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	
+	</div>
+	
+	
+	
+	
+	<!-- =========================== Main body ================================ -->
+	
+	<div id="container">
+	
+		<div id="header">
+			<h1>Contact</h1>
+		</div>
+
+			<div class="form">
+				
+				<form action="photography.php" method="post" onsubmit="return checkform();">
+					
+					<label class = "label">First name:</label></br></br>
+					<input class="tf" name="firstname" type="text" size="20%"></br></br>
+					<label class = "label">Last name:</label></br></br>
+					<input class="tf" name="lastname" type="text" size="20%"></br></br>
+					<label class = "label">Email:</label></br></br>
+					<input class="tf" name="email" type="text" size ="40%"></br></br>
+					<label class = "label">Message:</label></br></br>
+					<textarea class="tf" name="message" rows="15" cols="68"></textarea></br></br>
+					<input type="submit"></br>
+					
+				</form>
+				
+			</div>
+	
+	
+		<div id="footer">
+		
+			<p id="copyright">&copy All rights reserved</p>
+		
+		</div>
+	
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="home.js"></script>
+
+	</div>
+	</body>
+
+</html>

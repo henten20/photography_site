@@ -1,0 +1,76 @@
+<!-- Homepage -->
+
+<!doctype html>
+
+<html>
+
+	<head>
+	
+		<title>Photography by Henry Ton</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+
+	<body>
+	
+	<script src="home.js"></script>
+	
+	<!-- =========================== Sidebar ================================ -->
+	
+	<div id="sidebar">
+	
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portraits.html">Portraits</a></li>
+			<li><a href="studio.html">Studio</a></li>
+			<li><a href="graduations.html">Graduations</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	
+		<div id="sidebarbutton">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#sidebarbutton').click(function(){
+				$('#sidebar').toggleClass('visible');
+			});
+		});
+	</script>
+	<!-- Keep only the first script if only the button needs to be pressed-->
+	<script>
+		$(document).ready(function(){
+			$('#sidebarbutton').click(function(){
+				$('#sidebarbutton').toggleClass('clicked');
+			});
+		});
+		
+	</script>
+	
+	<!-- =========================== Main body ================================ -->
+	
+	<div id="container">
+	
+		<div id="header">
+			<h1>Henry Ton</h1>
+		</div>
+	
+		<div>
+			
+			
+		</div>
+	
+	
+	
+	</div>
+	
+	</body>
+
+</html>
